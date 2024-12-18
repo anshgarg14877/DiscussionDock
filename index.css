@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* color: white; */
+}
+
+/* Hide the scrollbar track to make it transparent */
+::-webkit-scrollbar {
+    width: 8px; /* Adjust the width as needed */
+  }
+  
+  /* Transparent scrollbar track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Transparent scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black thumb */
+    border-radius: 4px; /* Rounded edges */
+  }
+  
+  /* Hover effect for thumb */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.5); /* Slightly darker on hover */
+  }
+  
